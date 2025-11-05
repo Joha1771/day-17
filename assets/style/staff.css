@@ -1,0 +1,69 @@
+.staff__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.staff__card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.staff__card-content > .desc{
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #000000B2;
+}
+.staff__card-content > .name{
+font-weight: 500;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 130%;
+letter-spacing: 0%;
+color: #000000;
+}
+.staff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.staff__content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.staff-subtitle{
+font-weight: 500;
+font-size: 28px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #00BDF8;
+}
+.staff__title{
+font-weight: 700;
+font-size: 64px;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+.staff__description{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000B2;
+}
+.staff > .container{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.staff__cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}

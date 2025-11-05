@@ -1,0 +1,79 @@
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F8FA;
+}
+.review__title h2{
+font-weight: 700;
+font-size: 64px;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+.review__description p{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000B2;
+}
+.review > .container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.review__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.review__card2{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 540px;
+    height: 409px;
+text-align: center;
+border-radius: 16px;
+border: 1px solid #0000001A;
+
+}
+.review__card1-wrapper{
+        display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 540px;
+    height: 347px;
+    text-align: center;
+border-radius: 16px;
+border: 1px solid #0000001A;
+
+}
+.review__card1-image{
+    padding-top: 30px;
+}
+.review__card1-name{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.review__card1-description p{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}

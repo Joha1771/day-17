@@ -1,0 +1,163 @@
+@media (max-width: 1160px){
+    .services__images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.review__cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+.services__images > img{
+    width: 150px;
+}
+.equipment-images{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+}
+
+
+@media (max-width: 1109px){
+.benefits__catalogs{
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    grid-gap: 0;
+    padding-left: 220px;
+}
+.benefits__catalog{
+    width: 50px; 
+}
+}
+@media (max-width:700px){
+.benefits__title h2{
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+ color: #000000;
+
+}
+.review__title h2{
+font-weight: 700;
+font-size: 40px;
+line-height: 54px;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+.review__description p{
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000B2;
+}
+
+}
+
+@media (max-width:650px){
+    .staff__title{
+font-weight: 700;
+font-size: 38px;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+.review__card2{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 409px;
+text-align: center;
+border-radius: 16px;
+border: 1px solid #0000001A;
+
+}
+.review__card1-wrapper{
+        display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 347px;
+    text-align: center;
+border-radius: 16px;
+border: 1px solid #0000001A;
+
+}
+.review__card1-description p{
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+.equipment-images{
+width: 400px;
+}
+.staff__description{
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000B2;
+}
+.staff__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding-left: 70px;
+}
+.staff__card{
+width: 150px;
+}
+}
+@media (max-width:470px){
+.benefits__title h2{
+font-weight: 700;
+font-size: 34px;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+ color: #000000;
+
+}
+
+.equipment-images{
+width: 300px;
+}
+.staff__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+}
+.benefits__catalog-title h4{
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+ padding-bottom: 16px;
+}
+.benefits__catalog-description p{
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #00000066;
+}
+}
