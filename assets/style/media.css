@@ -141,7 +141,7 @@ width: 300px;
 .staff__cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 10px;
+    padding-left: 25px;
 }
 .benefits__catalog-title h4{
 font-weight: 500;
